@@ -4,9 +4,24 @@ body{
     color: #333;
 }
 
+.header{
+    background: #33a;
+    color: white;
+    box-shadow: 0px 5px 50px 0px rgba(0, 0, 0, 0)
+    margin: 0;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+.header .tagline{
+    font-weight: normal;
+    font-size: 0.8em;
+    padding: 0 0 0 1em;
+}
+
 .container{
     width: 70%;
-    padding: 1em;
+    padding: 0em;
     text-align: left;
     border: 1px solid #ddd;
     font-size: 16px;
